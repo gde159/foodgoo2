@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <style>
+      body {
+        background: #e5e5e5;
+      }
+
+      .app-container {
+        max-width: 430px;
+        margin: 24px auto;
+        min-height: 100vh;
+        background: #fff;
+        position: relative;
+        box-shadow: 0 0 24px rgba(0,0,0,0.10);
+        border-radius: 18px;
+        overflow: hidden;
+      }
+
+      :host {
+        display: block;
+        width: 100%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 100;
+      }
+    </style>
+  </head>
+  <body>
+    <foodgoo-app></foodgoo-app>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
